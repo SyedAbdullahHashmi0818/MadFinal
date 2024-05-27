@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { styled } from "nativewind";
 
 
+
 import Google from '../assets/google.svg'
 import FaceBook from '../assets/Facebook.svg'
 import Instagram from '../assets/Instagram.svg'
@@ -84,14 +85,7 @@ const SignUp2 = ({ navigation }) => {
       </View>
 
 
-
       <View className=' mt-10 mx-10 flex justify-center ' >
-
-
-
-
-
-
 
         <View>
 

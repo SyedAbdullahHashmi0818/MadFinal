@@ -35,10 +35,6 @@ function App() {
    
   <>
   
- 
-
-
-
   <NavigationContainer>
   <Stack.Navigator initialRouteName='SplashScreen' >
           <Stack.Screen options={{headerShown:false}}  name="BottomNavigation"  component={BottomNavigation} />

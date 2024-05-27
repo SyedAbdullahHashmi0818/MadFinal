@@ -17,7 +17,8 @@ const PersonInfo  = ({navigation}) => {
     const StyledText = styled(Text);
     const StyledImage = styled(Image);
     const route = useRoute();
-    const { name, profile, facebookid,instagramid } = route.params;
+    // const { name, profile, facebookid,instagramid } = route.params;
+    let name="rizwan sabir"
     const StyleBackground=styled(ImageBackground)
     const StyledInput = styled(TextInput, {
         props: {
@@ -60,19 +61,10 @@ const PersonInfo  = ({navigation}) => {
      </View>
  </View>
 
-        
-        
       </View>
-
-
 
             <View   className=' mt-10 mx-10 flex justify-center ' >
 
-              
-
-
-
-                
 
                 <View>
 
@@ -91,21 +83,9 @@ const PersonInfo  = ({navigation}) => {
                 <Text className='    p-3 text-lg w-11/12'>{instagramid}</Text>
                </View>
                 </View>
-                
-               
-               
+        
                 </View>
-
-
-               
-
-              
-             
-
             </View>
-
-
-
         </SafeAreaView>
     )
 }

@@ -19,11 +19,6 @@ import FaceBook from '../assets/Facebook.svg'
 
 function Splash2({navigation}) {
 
-
-
-
-
-
   return (
 
     <View style={styles.container}>
